@@ -11,7 +11,7 @@ public class FoodDrinks extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.listviewitem);
+        setContentView(R.layout.fooddrinksitem);
 
         //create new array list to hold food and drink items
         ArrayList<NewItem> obj = new ArrayList<>();
